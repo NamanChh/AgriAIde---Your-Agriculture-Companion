@@ -18,7 +18,6 @@ if not api_key:
     st.error("GOOGLE_API_KEY not found. Please set it in your .env file or environment variables.")
     st.stop()
 
-# api_key = "AIzaSyDMhXEiYgLEF6wKrcaWl2nRo30cxFJum_8"
 
 genai.configure(api_key=api_key)
 
